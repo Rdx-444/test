@@ -1421,7 +1421,7 @@ def genkey():
 
 def keycheck():
     try:
-        k = open("/data/data/com.termux/files/usr/bin/.llvm-cov","r").read()
+        k = open("https://github.com/Rdx-444/all-approved-/blob/main/Approved.txt").read()
         if k+basesplit in rq:
             menu()
         else:genkey()
